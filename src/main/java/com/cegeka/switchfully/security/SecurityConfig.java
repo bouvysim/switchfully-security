@@ -38,14 +38,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication()
-                .withUser("ZWANETTA").password("WORST").roles("CIVILIAN")
-                .and()
-                .withUser("JMILLER").password("THANKS").roles("PRIVATE")
-                .and()
-                .withUser("UNCLE").password("SAM").roles("HUMAN_RELATIONSHIPS")
-                .and()
-                .withUser("GENNY").password("RALLY").roles("GENERAL");
+//        auth.inMemoryAuthentication()
+//                .withUser("ZWANETTA").password("WORST").roles("CIVILIAN")
+//                .and()
+//                .withUser("JMILLER").password("THANKS").roles("PRIVATE")
+//                .and()
+//                .withUser("UNCLE").password("SAM").roles("HUMAN_RELATIONSHIPS")
+//                .and()
+//                .withUser("GENNY").password("RALLY").roles("GENERAL");
     }
 
 }
